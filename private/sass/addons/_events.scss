@@ -64,7 +64,7 @@ $events-visual-size: 240px;
     a:before {
         @extend .fa;
         @extend .fa-fw;
-        @extend .fa-left;
+        @extend .fa-left !optional;
         @extend .fa-external-link;
     }
 }

@@ -476,14 +476,15 @@ $pagination-disabled-border:           #ddd;
 // #############################################################################
 // Pager
 
-$pager-bg:                             $brand-primary;
+$pager-bg:                             transparent;
 $pager-border:                         none;
-$pager-border-radius:                  $border-radius-base;
+$pager-border-radius:                  none;
 
-$pager-hover-bg:                       darken($brand-primary, 5%);
+//$pager-hover-bg:                       darken($brand-primary, 5%);
+$pager-hover-bg:                       transparent;
 
 $pager-active-bg:                      none;
-$pager-active-color:                   #fff;
+$pager-active-color:                   $link-color;
 
 $pager-disabled-color:                 $pagination-disabled-color;
 
